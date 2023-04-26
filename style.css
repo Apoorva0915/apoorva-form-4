@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+h2{
+  
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color:#4C7D9F;
+}
+
+h3{
+    text-align: left;
+    margin: 14px 22px;
+    font-size: 20px;
+    font-family: 'Castoro Titling', cursive;
+    color: black;
+    /* -webkit-text-stroke: 0.2px black;
+	-webkit-text-fill-color: 3px white; */
+}
+
+h4{
+    /* display: inline-block;  */
+    /* width: 150px;  */
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 0.01px;
+    color:black;
+}
+
+form{
+    padding-top: 8px;
+}
+body {
+    background:url(v915-wit-011.jpg) no-repeat center center/cover;
+    /* background-repeat: no-repeat;
+    background-size: center center/cover; */
+  }
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.box{
+     /* display: flex; 
+     align-items: center; */
+    text-align: center; 
+    /* height:40rem; */
+    /* width: 40rem; */
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 5px#4389be;
+    border-radius: 20PX;
+    border: 1px solid black;
+    /* background-color: #1f38696c; */
+
+}
+
+.input-container{
+    margin: 8px 20px;
+    padding: 3px 45px ;
+    font-size: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#D8EBF9;
+    border: 1.7px solid black;
+    box-shadow: 1.6px 1.6px 1.6px #D8EBF9 ;
+    
+    
+
+}
+
+.contact{
+    text-align: left;
+    margin: 8px 6px;
+}
+
+.Rating{
+    /* text-align: left; */
+    /* margin: -20px 30px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -46px;
+    margin-left: 270px;
+    font-weight: bold;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 15px;
+    padding-left: 15px;
+    color: black;
+}
+
+.submit{
+    /* margin-top: 20px;  */
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px 8px; 
+    padding-top: 5px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 0.2px;
+    
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color:#D8EBF9;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s; */
+}
+::placeholder{
+    color: black;
+}
+
+.res{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:650px){
+    .box{
+        width: 20rem;
+        margin-top: 370px;
+    }
+    .Rating{
+        display: block;
+        margin: 0px;
+    }
+    body{
+        height: 200vh;
+    }
+}
+@media(max-width:345px){
+    .input-container{
+        padding:0px 20px ;
+        width: 160px;
+    }
+
+.box{
+      width: 240px;
+      text-align: center;
+      margin-top: 300px;
+
+}
+body{
+    height: 200vh;
+}
+.Rating{
+    margin: 0px;
+    padding: 0;
+    font-size: 12px;
+}
+h4{
+    padding: 0;
+    margin: 16px;
+    font-size: 18px;
+}
+}
