@@ -138,7 +138,7 @@ body {
 @media(max-width:345px){
     .input-container{
         padding:0px 20px ;
-        width: 160px;
+        width: 155px;
     }
 
 .box{
@@ -148,7 +148,7 @@ body {
 
 }
 body{
-    height: 200vh;
+    height: 300vh;
 }
 .Rating{
     margin: 0px;
