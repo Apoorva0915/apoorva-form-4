@@ -14,13 +14,11 @@ h3{
     font-size: 20px;
     font-family: 'Castoro Titling', cursive;
     color: black;
-    /* -webkit-text-stroke: 0.2px black;
-	-webkit-text-fill-color: 3px white; */
+
 }
 
 h4{
-    /* display: inline-block;  */
-    /* width: 150px;  */
+
     text-align: left;
     padding-left: 20px;
     font-size: 18px;
@@ -34,8 +32,6 @@ form{
 }
 body {
     background:url(v915-wit-011.jpg) no-repeat center center/cover;
-    /* background-repeat: no-repeat;
-    background-size: center center/cover; */
   }
 .container{
     display: flex;
@@ -46,17 +42,11 @@ body {
 }
   
 .box{
-     /* display: flex; 
-     align-items: center; */
     text-align: center; 
-    /* height:40rem; */
-    /* width: 40rem; */
     margin-top: 20px;
     box-shadow: 1px 1px 5px 5px#4389be;
     border-radius: 20PX;
     border: 1px solid black;
-    /* background-color: #1f38696c; */
-
 }
 
 .input-container{
@@ -79,8 +69,6 @@ body {
 }
 
 .Rating{
-    /* text-align: left; */
-    /* margin: -20px 30px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -94,7 +82,6 @@ body {
 }
 
 .submit{
-    /* margin-top: 20px;  */
     margin-bottom: 30px;
     text-align: center;
     padding: 0px 8px; 
@@ -109,9 +96,7 @@ body {
 .submit:hover{
     cursor: pointer;
     background-color:#D8EBF9;
-    /* padding-left: 20px;
-    padding-right: 20px;
-    transition: 0.5s; */
+
 }
 ::placeholder{
     color: black;
